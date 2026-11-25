@@ -114,6 +114,17 @@ python -m ai.prepare_captures --samples-dir "/home/pi/sdr_samples"
 
 Водоспад прокручується колесом або смугою праворуч. Масштаб **«Видимий час»**, повзунок і натискання на час у таблиці переносять до потрібної ділянки.
 
+
+
 На відкладених реальних вікнах знайдено **104 із 106 FM**, хибних FM — **0 серед 266 негативів**. У повних ADS-B та airband записах FM не позначено. Докладні вимірювання збережено в `ai/models/training.json` та `evaluation.json`.
 
 Ці результати стосуються наданих записів. На слабких або незнайомих сигналах можливі пропуски й помилки; зокрема, вони залишаються на частині синтетичного QPSK.
+
+<img width="1280" height="796" alt="image" src="https://github.com/user-attachments/assets/25b9eb8b-1fea-4f53-bbe3-623a65627215" />
+Приклад роботи з ADS-B (Automatic Dependent Surveillance-Broadcast ) записом з літака.
+<img width="1266" height="674" alt="image" src="https://github.com/user-attachments/assets/db726559-5cac-4bec-bdae-4b04d1f450ee" />
+Приклад роботи з записом який містить кілька каналів голосового зв’язку служби управління повітряним рухом (ATC) з AM модуляцією.
+<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/bd4951d0-ec62-4587-8a0f-d16c214b5478" />
+Приклад роботи з записом який містить кілька каналів FM мовлення.
+<img width="1280" height="626" alt="image" src="https://github.com/user-attachments/assets/561379ee-9a40-4c03-ac33-5f27e5a14798" />
+Приклад роботи з записом FM радіо.
