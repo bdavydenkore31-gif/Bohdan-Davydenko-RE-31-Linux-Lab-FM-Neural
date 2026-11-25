@@ -1,0 +1,14 @@
+{
+  "source_filename": "baseband_96000000Hz_11-32-20_15-11-2026.wav",
+  "source_sha256": "3977093bbc10fbaba8227b0594592c4214a27e6d8a00ecb63d6e5914059c9010",
+  "source_sample_rate_hz": 2048000,
+  "source_center_mhz": 96.0,
+  "station_mhz": 96.0,
+  "source_duration_s": 240.0,
+  "windows": 960,
+  "samples_per_window": 8192,
+  "window_rate_hz": 320000,
+  "label_basis": "Канал 96 МГц попереднього SDR-запису прийнято за FM на основі попередньої перевірки приймання.",
+  "processing": "Зсув частоти, фільтрація й ресемплінг комплексних I/Q. Аудіо не декодується.",
+  "split": "Різні вихідні часові вікна для train 70%, validation 15%, test 15%; їхні перетворення зберігають той самий split."
+}

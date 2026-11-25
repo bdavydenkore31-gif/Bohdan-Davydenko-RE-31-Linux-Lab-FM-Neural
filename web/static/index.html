@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FM у записі</title>
+<link rel="stylesheet" href="/style.css">
+<script src="/lab.js" defer></script>
+</head>
+<body><main>
+<header><h1>FM у записі</h1></header>
+<div class="layout">
+<section class="controls"><h2>Запис</h2>
+<div><label for="file">I/Q-запис</label><input id="file" type="file" accept=".wav,.iq,.raw,.bin,audio/wav"></div>
+<div><label for="center">Центр запису, МГц</label><input id="center" type="number" min="0" max="100000" step="0.001" placeholder="Наприклад, 96"></div>
+<div id="rawSettings" class="raw-settings" hidden>
+ <p>У файлі немає заголовка WAV. Перевір параметри сирих I/Q.</p>
+ <div><label for="sampleRate">Частота відліків, МГц</label><input id="sampleRate" type="number" min="0.32" max="5" step="0.001" value="2.048"></div>
+ <div><label for="sampleFormat">Формат I/Q</label><select id="sampleFormat"><option value="u8">8 біт без знаку</option><option value="i16">16 біт зі знаком, LE</option><option value="f32">32 біти float, LE</option></select></div>
+</div>
+<button id="analyze" disabled>Аналізувати</button>
+<section id="fileVerdict" class="file-verdict" aria-live="polite" data-state="idle">
+ <h3>Висновок за всім записом</h3>
+ <p id="verdictTitle" class="verdict-title">Очікує на аналіз</p>
+ <p id="verdictDetail">Вибери файл і натисни «Аналізувати».</p>
+ <p id="verdictStats" hidden></p>
+</section>
+<p id="status" role="status">Вибери запис.</p><progress id="progress" max="100" value="0" hidden></progress>
+</section>
+<section class="display">
+<div class="plot-header"><h2>Водоспад</h2><label><input id="fmOnly" type="checkbox"> Лише FM</label></div>
+<div id="waterfallTools" class="time-controls" hidden>
+ <label for="timeScale">Видимий час <select id="timeScale"><option value="15">15 с</option><option value="30" selected>30 с</option><option value="60">1 хв</option><option value="120">2 хв</option><option value="all">Увесь запис</option></select></label>
+ <output id="viewRange"></output>
+</div>
+<div class="plot-frame">
+ <div id="empty" class="empty">Вибери запис для аналізу.</div>
+ <div id="waterfallScroll" class="waterfall-scroll" tabindex="0" aria-label="Водоспад із прокручуванням за часом" hidden>
+  <div id="waterfallContent" class="waterfall-content"><canvas id="waterfall" width="1024" height="480" aria-label="Водоспад із ділянками FM та не FM"></canvas></div>
+ </div>
+ <div class="axes"><span id="left">Частота</span><span id="middle"></span><span id="right"></span></div>
+</div>
+<div id="timeNavigation" class="time-navigation" hidden><label for="timeSeek">Час запису</label><input id="timeSeek" type="range" min="0" max="0" value="0" step="0.1"><output id="totalTime"></output></div>
+<div class="legend"><span><i class="dot fm"></i>FM</span><span><i class="dot non-fm"></i>Не FM</span><output id="position"></output></div>
+<div id="results" hidden>
+ <div class="result-title"><h2>Знайдені ділянки</h2><span id="summary"></span></div><p id="fileInfo"></p>
+ <div class="table-scroll"><table><thead><tr><th>Сигнал</th><th>Частота</th><th>Час</th><th>Оцінка</th></tr></thead><tbody id="detections"></tbody></table></div>
+</div>
+</section></div>
+</main></body></html>

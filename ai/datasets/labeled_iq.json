@@ -1,0 +1,109 @@
+{
+  "schema": 3,
+  "sources": [
+    {
+      "id": "previous_fm",
+      "source_filename": "baseband_96000000Hz_11-32-20_15-11-2026.wav",
+      "source_sha256": "3977093bbc10fbaba8227b0594592c4214a27e6d8a00ecb63d6e5914059c9010",
+      "source_sample_rate_hz": 2048000,
+      "source_center_mhz": 96.0,
+      "station_mhz": 96.0,
+      "source_duration_s": 240.0,
+      "windows": 960,
+      "samples_per_window": 8192,
+      "window_rate_hz": 320000,
+      "label_basis": "Канал 96 МГц попереднього SDR-запису прийнято за FM на основі попередньої перевірки приймання.",
+      "processing": "Зсув частоти, фільтрація й ресемплінг комплексних I/Q. Аудіо не декодується.",
+      "split": "Різні вихідні часові вікна для train 70%, validation 15%, test 15%; їхні перетворення зберігають той самий split."
+    },
+    {
+      "id": "adsb",
+      "filename": "adsb.2021-11-26T15_03_30_573.wav",
+      "sha256": "3daaa515dfe6dfc5573c4a031ce4c0531c4bb7025813b7aef268a424b9351633",
+      "sample_rate_hz": 2400000,
+      "raw_format": "PCM16 WAV",
+      "rate_basis": "Заголовок WAV",
+      "duration_s": 102.08768,
+      "channels": [
+        {
+          "offset_hz": 0,
+          "class": "non_fm",
+          "kind": "real_adsb"
+        },
+        {
+          "offset_hz": 650000,
+          "class": "non_fm",
+          "kind": "real_adsb_background"
+        }
+      ]
+    },
+    {
+      "id": "airband",
+      "filename": "airband.2021-12-16T14_38_30_460.wav",
+      "sha256": "f7e7e8406918ddb5bef4de681e5ef244280793a7c1bcebb4c4cd908314663a90",
+      "sample_rate_hz": 3000000,
+      "raw_format": "PCM16 WAV",
+      "rate_basis": "Заголовок WAV",
+      "duration_s": 45.498768,
+      "channels": [
+        {
+          "offset_hz": -675000,
+          "class": "non_fm",
+          "kind": "real_airband"
+        },
+        {
+          "offset_hz": -545000,
+          "class": "non_fm",
+          "kind": "real_airband"
+        },
+        {
+          "offset_hz": 1125000,
+          "class": "non_fm",
+          "kind": "real_airband"
+        }
+      ]
+    },
+    {
+      "id": "broadcast",
+      "filename": "baseband_96400000Hz_09-17-43_23-11-2026.wav",
+      "sha256": "294e5eab73021769051dbe2cea7b86400c9c4c9d58407bfe391e517478842009",
+      "sample_rate_hz": 2048000,
+      "raw_format": "u8",
+      "rate_basis": "Параметри попереднього записування; у сирому файлі заголовка немає.",
+      "duration_s": 227.9840107421875,
+      "channels": [
+        {
+          "offset_hz": -400000,
+          "class": "fm",
+          "kind": "real_fm"
+        },
+        {
+          "offset_hz": 0,
+          "class": "fm",
+          "kind": "real_fm"
+        },
+        {
+          "offset_hz": -150000,
+          "class": "non_fm",
+          "kind": "real_background"
+        },
+        {
+          "offset_hz": 230000,
+          "class": "non_fm",
+          "kind": "real_background"
+        },
+        {
+          "offset_hz": 580000,
+          "class": "non_fm",
+          "kind": "real_background"
+        }
+      ]
+    }
+  ],
+  "windows": 2568,
+  "samples_per_window": 8192,
+  "sample_rate_hz": 320000,
+  "label_basis": "FM попередньої лабораторної; у новому записі канали 96,0 і 96,4 МГц перевірено за фазовою структурою та пілотом 19 кГц. ADS-B і airband — негативи за типом наданих записів. Міжканальні ділянки мають мітку не FM у центрі аналізованого каналу.",
+  "split": "70/15/15 за часом кожного запису, із захисною паузою; усі канали одного часу належать одній вибірці.",
+  "held_out_channel": "Канал близько 97,2 МГц нового запису не використано для навчання або вибору моделі."
+}

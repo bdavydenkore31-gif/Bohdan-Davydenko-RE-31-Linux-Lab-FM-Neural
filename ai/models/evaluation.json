@@ -1,0 +1,2103 @@
+{
+  "model": "ai/models/classifier.npz",
+  "window_comparison": {
+    "before": {
+      "adsb": {
+        "samples": 68,
+        "fm_samples": 0,
+        "false_fm": 65,
+        "true_fm": 0
+      },
+      "airband": {
+        "samples": 93,
+        "fm_samples": 0,
+        "false_fm": 32,
+        "true_fm": 0
+      },
+      "broadcast": {
+        "samples": 175,
+        "fm_samples": 70,
+        "false_fm": 0,
+        "true_fm": 61
+      },
+      "previous_fm": {
+        "samples": 36,
+        "fm_samples": 36,
+        "false_fm": 0,
+        "true_fm": 31
+      }
+    },
+    "after": {
+      "adsb": {
+        "samples": 68,
+        "fm_samples": 0,
+        "false_fm": 0,
+        "true_fm": 0
+      },
+      "airband": {
+        "samples": 93,
+        "fm_samples": 0,
+        "false_fm": 0,
+        "true_fm": 0
+      },
+      "broadcast": {
+        "samples": 175,
+        "fm_samples": 70,
+        "false_fm": 0,
+        "true_fm": 70
+      },
+      "previous_fm": {
+        "samples": 36,
+        "fm_samples": 36,
+        "false_fm": 0,
+        "true_fm": 34
+      }
+    }
+  },
+  "captures": {
+    "adsb.2021-11-26T15_03_30_573.wav": {
+      "filename": "adsb.2021-11-26T15_03_30_573.wav",
+      "center_mhz": 1090.0,
+      "sample_rate_hz": 2400000,
+      "duration_s": 102.08768,
+      "detections": [
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.0,
+          "start_s": 0.0,
+          "end_s": 102.088,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.1675,
+          "start_s": 66.5,
+          "end_s": 67.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.1675,
+          "start_s": 68.5,
+          "end_s": 69.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.1675,
+          "start_s": 71.5,
+          "end_s": 72.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.17,
+          "start_s": 73.0,
+          "end_s": 73.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.1425,
+          "start_s": 80.0,
+          "end_s": 80.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 1090.145,
+          "start_s": 100.0,
+          "end_s": 100.5,
+          "score": 1.0
+        }
+      ],
+      "time_step_s": 0.5,
+      "frequency_step_khz": 2.5,
+      "model_threshold": 0.884211055276382,
+      "elapsed_s": 22.88,
+      "fm_regions": 0,
+      "non_fm_regions": 7,
+      "heldout_fm_half_second_windows": 0
+    },
+    "airband.2021-12-16T14_38_30_460.wav": {
+      "filename": "airband.2021-12-16T14_38_30_460.wav",
+      "center_mhz": 119.5,
+      "sample_rate_hz": 3000000,
+      "duration_s": 45.498768,
+      "detections": [
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.285,
+          "start_s": 0.0,
+          "end_s": 0.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 118.825,
+          "start_s": 0.0,
+          "end_s": 10.5,
+          "score": 0.9935
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.4,
+          "start_s": 0.5,
+          "end_s": 1.5,
+          "score": 0.9997
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.625,
+          "start_s": 11.5,
+          "end_s": 17.0,
+          "score": 0.9956
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 118.955,
+          "start_s": 21.5,
+          "end_s": 26.5,
+          "score": 0.9554
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.4,
+          "start_s": 27.0,
+          "end_s": 28.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 118.955,
+          "start_s": 27.0,
+          "end_s": 31.0,
+          "score": 0.9998
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.625,
+          "start_s": 31.0,
+          "end_s": 32.0,
+          "score": 0.992
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.285,
+          "start_s": 31.5,
+          "end_s": 32.0,
+          "score": 0.9997
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.625,
+          "start_s": 33.0,
+          "end_s": 34.0,
+          "score": 0.9983
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.625,
+          "start_s": 34.5,
+          "end_s": 39.5,
+          "score": 0.9984
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 118.825,
+          "start_s": 37.5,
+          "end_s": 41.5,
+          "score": 0.9999
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 118.5,
+          "start_s": 39.5,
+          "end_s": 44.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.525,
+          "start_s": 40.5,
+          "end_s": 41.0,
+          "score": 0.9997
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.625,
+          "start_s": 41.0,
+          "end_s": 41.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.525,
+          "start_s": 41.5,
+          "end_s": 42.5,
+          "score": 0.9903
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 118.825,
+          "start_s": 42.0,
+          "end_s": 45.499,
+          "score": 0.9946
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.625,
+          "start_s": 42.5,
+          "end_s": 43.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.525,
+          "start_s": 43.5,
+          "end_s": 44.5,
+          "score": 0.9968
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 120.525,
+          "start_s": 45.0,
+          "end_s": 45.499,
+          "score": 1.0
+        }
+      ],
+      "time_step_s": 0.5,
+      "frequency_step_khz": 2.5,
+      "model_threshold": 0.884211055276382,
+      "elapsed_s": 13.7,
+      "fm_regions": 0,
+      "non_fm_regions": 20,
+      "heldout_fm_half_second_windows": 0
+    },
+    "baseband_96400000Hz_09-17-43_23-11-2026.wav": {
+      "filename": "baseband_96400000Hz_09-17-43_23-11-2026.wav",
+      "center_mhz": 96.4,
+      "sample_rate_hz": 2048000,
+      "duration_s": 227.9840107421875,
+      "detections": [
+        {
+          "class": "fm",
+          "frequency_mhz": 96.41,
+          "start_s": 0.0,
+          "end_s": 227.984,
+          "score": 0.9451
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 97.195,
+          "start_s": 0.0,
+          "end_s": 202.0,
+          "score": 0.9904
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.0,
+          "start_s": 0.0,
+          "end_s": 227.984,
+          "score": 0.9994
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.55,
+          "start_s": 0.0,
+          "end_s": 0.5,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 0.0,
+          "end_s": 0.5,
+          "score": 0.95
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 0.5,
+          "end_s": 1.5,
+          "score": 0.8487
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 1.5,
+          "end_s": 8.0,
+          "score": 0.9266
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 2.0,
+          "end_s": 2.5,
+          "score": 0.9166
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 2.5,
+          "end_s": 3.0,
+          "score": 0.943
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 4.0,
+          "end_s": 4.5,
+          "score": 0.9598
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 4.5,
+          "end_s": 5.0,
+          "score": 0.8163
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 7.5,
+          "end_s": 8.5,
+          "score": 0.9539
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 8.5,
+          "end_s": 9.0,
+          "score": 0.9854
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 9.0,
+          "end_s": 10.0,
+          "score": 0.9109
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 10.0,
+          "end_s": 10.5,
+          "score": 0.9959
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8025,
+          "start_s": 10.5,
+          "end_s": 12.5,
+          "score": 0.9681
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 11.0,
+          "end_s": 11.5,
+          "score": 0.9857
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 12.0,
+          "end_s": 12.5,
+          "score": 0.9426
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 12.5,
+          "end_s": 13.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 13.0,
+          "end_s": 13.5,
+          "score": 0.8864
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 13.5,
+          "end_s": 14.0,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.81,
+          "start_s": 13.5,
+          "end_s": 15.5,
+          "score": 0.9264
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 14.5,
+          "end_s": 15.0,
+          "score": 0.9999
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 15.5,
+          "end_s": 16.0,
+          "score": 0.9652
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 16.0,
+          "end_s": 16.5,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 16.0,
+          "end_s": 16.5,
+          "score": 0.9973
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 17.0,
+          "end_s": 17.5,
+          "score": 0.9374
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 17.5,
+          "end_s": 18.5,
+          "score": 0.9659
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.615,
+          "start_s": 18.0,
+          "end_s": 18.5,
+          "score": 0.815
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 18.5,
+          "end_s": 19.5,
+          "score": 0.9132
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7875,
+          "start_s": 19.0,
+          "end_s": 19.5,
+          "score": 0.9896
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 20.0,
+          "end_s": 21.0,
+          "score": 0.89
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 20.5,
+          "end_s": 21.0,
+          "score": 0.9912
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 22.5,
+          "end_s": 24.0,
+          "score": 0.9975
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 22.5,
+          "end_s": 23.5,
+          "score": 0.9101
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 24.0,
+          "end_s": 25.0,
+          "score": 0.8815
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.61,
+          "start_s": 25.0,
+          "end_s": 25.5,
+          "score": 0.9852
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 25.5,
+          "end_s": 26.0,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 26.0,
+          "end_s": 27.0,
+          "score": 0.9635
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 27.0,
+          "end_s": 28.0,
+          "score": 0.813
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 28.0,
+          "end_s": 28.5,
+          "score": 0.9859
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 28.5,
+          "end_s": 29.0,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 28.5,
+          "end_s": 30.0,
+          "score": 0.9107
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 30.0,
+          "end_s": 30.5,
+          "score": 0.956
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 31.0,
+          "end_s": 32.0,
+          "score": 0.9088
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 32.5,
+          "end_s": 33.0,
+          "score": 0.9742
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 33.0,
+          "end_s": 33.5,
+          "score": 0.9816
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 33.5,
+          "end_s": 34.0,
+          "score": 0.998
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 34.5,
+          "end_s": 35.0,
+          "score": 0.9957
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.79,
+          "start_s": 34.5,
+          "end_s": 35.0,
+          "score": 0.963
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 35.5,
+          "end_s": 36.0,
+          "score": 0.981
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 36.0,
+          "end_s": 36.5,
+          "score": 0.9157
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 36.5,
+          "end_s": 38.5,
+          "score": 0.9875
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 36.5,
+          "end_s": 37.0,
+          "score": 0.8338
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 37.0,
+          "end_s": 37.5,
+          "score": 0.8929
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 38.5,
+          "end_s": 39.0,
+          "score": 0.926
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 39.0,
+          "end_s": 39.5,
+          "score": 0.9855
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 39.0,
+          "end_s": 40.0,
+          "score": 0.9059
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 40.0,
+          "end_s": 42.0,
+          "score": 0.9939
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 41.0,
+          "end_s": 41.5,
+          "score": 0.9695
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.61,
+          "start_s": 41.5,
+          "end_s": 42.5,
+          "score": 0.9679
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 42.5,
+          "end_s": 44.5,
+          "score": 0.8002
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 42.5,
+          "end_s": 43.0,
+          "score": 0.9478
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 43.5,
+          "end_s": 46.0,
+          "score": 0.912
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 45.0,
+          "end_s": 45.5,
+          "score": 0.9882
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 46.5,
+          "end_s": 48.0,
+          "score": 0.9396
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 47.5,
+          "end_s": 48.0,
+          "score": 0.9285
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 49.5,
+          "end_s": 52.0,
+          "score": 0.9716
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 49.5,
+          "end_s": 50.0,
+          "score": 0.8713
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 51.0,
+          "end_s": 52.5,
+          "score": 0.8334
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 52.5,
+          "end_s": 53.0,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 52.5,
+          "end_s": 53.0,
+          "score": 0.9992
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 53.0,
+          "end_s": 53.5,
+          "score": 0.9906
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 53.5,
+          "end_s": 54.0,
+          "score": 0.9845
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 54.5,
+          "end_s": 58.0,
+          "score": 0.977
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 55.5,
+          "end_s": 56.0,
+          "score": 0.9617
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 56.5,
+          "end_s": 57.0,
+          "score": 0.8993
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.55,
+          "start_s": 57.0,
+          "end_s": 58.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 58.5,
+          "end_s": 59.5,
+          "score": 0.9783
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 59.0,
+          "end_s": 61.5,
+          "score": 0.9879
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 59.5,
+          "end_s": 60.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 60.0,
+          "end_s": 61.5,
+          "score": 0.8138
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 62.0,
+          "end_s": 64.0,
+          "score": 0.9642
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 62.0,
+          "end_s": 62.5,
+          "score": 0.9844
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 62.5,
+          "end_s": 63.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 63.0,
+          "end_s": 63.5,
+          "score": 0.8203
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 64.0,
+          "end_s": 64.5,
+          "score": 0.8695
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 64.5,
+          "end_s": 66.0,
+          "score": 0.9889
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 66.5,
+          "end_s": 69.5,
+          "score": 0.9534
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 66.5,
+          "end_s": 68.5,
+          "score": 0.8817
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 68.5,
+          "end_s": 69.0,
+          "score": 0.9927
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 70.0,
+          "end_s": 72.0,
+          "score": 0.9688
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 70.0,
+          "end_s": 70.5,
+          "score": 0.9217
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 71.0,
+          "end_s": 72.0,
+          "score": 0.9029
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 73.0,
+          "end_s": 76.0,
+          "score": 0.9928
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 73.0,
+          "end_s": 73.5,
+          "score": 0.9933
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 75.0,
+          "end_s": 76.5,
+          "score": 0.8075
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 76.5,
+          "end_s": 77.0,
+          "score": 0.9912
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 77.0,
+          "end_s": 77.5,
+          "score": 0.9845
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 77.5,
+          "end_s": 78.0,
+          "score": 0.9991
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.615,
+          "start_s": 77.5,
+          "end_s": 80.5,
+          "score": 0.8096
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.775,
+          "start_s": 79.0,
+          "end_s": 79.5,
+          "score": 0.9931
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.78,
+          "start_s": 80.0,
+          "end_s": 83.0,
+          "score": 0.985
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.55,
+          "start_s": 80.5,
+          "end_s": 81.0,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 81.0,
+          "end_s": 82.0,
+          "score": 0.9504
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 82.5,
+          "end_s": 83.0,
+          "score": 0.9754
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.775,
+          "start_s": 83.5,
+          "end_s": 84.5,
+          "score": 0.9929
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.615,
+          "start_s": 84.0,
+          "end_s": 84.5,
+          "score": 0.9858
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.78,
+          "start_s": 85.0,
+          "end_s": 85.5,
+          "score": 0.9988
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 85.5,
+          "end_s": 86.0,
+          "score": 0.9231
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 86.0,
+          "end_s": 86.5,
+          "score": 0.9968
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 87.0,
+          "end_s": 88.0,
+          "score": 0.8882
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7775,
+          "start_s": 88.0,
+          "end_s": 88.5,
+          "score": 0.9977
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 88.5,
+          "end_s": 89.5,
+          "score": 0.9994
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7675,
+          "start_s": 89.0,
+          "end_s": 90.5,
+          "score": 0.9851
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 89.5,
+          "end_s": 91.0,
+          "score": 0.9067
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 91.5,
+          "end_s": 93.5,
+          "score": 0.9135
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 94.0,
+          "end_s": 94.5,
+          "score": 0.9891
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7775,
+          "start_s": 94.5,
+          "end_s": 95.0,
+          "score": 0.9984
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 95.0,
+          "end_s": 95.5,
+          "score": 1.0
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7775,
+          "start_s": 95.5,
+          "end_s": 98.0,
+          "score": 0.9434
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 96.5,
+          "end_s": 97.0,
+          "score": 0.9182
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 97.5,
+          "end_s": 99.0,
+          "score": 0.9326
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 99.5,
+          "end_s": 100.0,
+          "score": 0.9948
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7825,
+          "start_s": 100.0,
+          "end_s": 100.5,
+          "score": 0.9957
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 100.0,
+          "end_s": 100.5,
+          "score": 0.9874
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 100.5,
+          "end_s": 101.5,
+          "score": 0.8895
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 101.5,
+          "end_s": 102.0,
+          "score": 0.9757
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 102.0,
+          "end_s": 102.5,
+          "score": 0.9046
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 102.5,
+          "end_s": 104.5,
+          "score": 0.9798
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7675,
+          "start_s": 102.5,
+          "end_s": 104.0,
+          "score": 0.9908
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 104.5,
+          "end_s": 105.5,
+          "score": 0.9969
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 105.5,
+          "end_s": 106.0,
+          "score": 0.9378
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 106.0,
+          "end_s": 109.0,
+          "score": 0.976
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 106.5,
+          "end_s": 107.5,
+          "score": 0.8942
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 108.0,
+          "end_s": 108.5,
+          "score": 0.9641
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6,
+          "start_s": 109.0,
+          "end_s": 109.5,
+          "score": 0.9178
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 109.5,
+          "end_s": 110.5,
+          "score": 0.8191
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 110.5,
+          "end_s": 111.0,
+          "score": 0.9944
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 110.5,
+          "end_s": 111.0,
+          "score": 0.9832
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6,
+          "start_s": 112.0,
+          "end_s": 112.5,
+          "score": 0.9797
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 112.0,
+          "end_s": 112.5,
+          "score": 0.959
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 113.0,
+          "end_s": 115.0,
+          "score": 0.8184
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 114.0,
+          "end_s": 114.5,
+          "score": 0.9967
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6025,
+          "start_s": 115.0,
+          "end_s": 115.5,
+          "score": 0.973
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 115.5,
+          "end_s": 117.0,
+          "score": 0.9758
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 116.0,
+          "end_s": 117.5,
+          "score": 0.9613
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 117.5,
+          "end_s": 118.5,
+          "score": 0.9984
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.615,
+          "start_s": 118.0,
+          "end_s": 128.5,
+          "score": 0.8102
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 119.5,
+          "end_s": 121.0,
+          "score": 0.9446
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 121.5,
+          "end_s": 122.0,
+          "score": 0.992
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 123.0,
+          "end_s": 123.5,
+          "score": 0.9938
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 124.0,
+          "end_s": 126.0,
+          "score": 0.9931
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 126.5,
+          "end_s": 128.0,
+          "score": 0.9678
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 129.0,
+          "end_s": 131.0,
+          "score": 0.9067
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 129.5,
+          "end_s": 130.0,
+          "score": 0.9992
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 130.5,
+          "end_s": 131.5,
+          "score": 0.8979
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 131.5,
+          "end_s": 137.5,
+          "score": 0.8866
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 132.0,
+          "end_s": 138.5,
+          "score": 0.8063
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 138.5,
+          "end_s": 139.0,
+          "score": 0.9892
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 139.0,
+          "end_s": 139.5,
+          "score": 0.8672
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.61,
+          "start_s": 139.5,
+          "end_s": 140.0,
+          "score": 0.9576
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.78,
+          "start_s": 140.0,
+          "end_s": 141.0,
+          "score": 0.9967
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 140.0,
+          "end_s": 140.5,
+          "score": 0.8719
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 141.0,
+          "end_s": 144.0,
+          "score": 0.8067
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7725,
+          "start_s": 142.0,
+          "end_s": 143.0,
+          "score": 0.9934
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 144.0,
+          "end_s": 144.5,
+          "score": 0.9559
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 144.5,
+          "end_s": 145.0,
+          "score": 0.9844
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 145.0,
+          "end_s": 145.5,
+          "score": 0.9959
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.605,
+          "start_s": 146.0,
+          "end_s": 146.5,
+          "score": 0.9944
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 147.0,
+          "end_s": 147.5,
+          "score": 1.0
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 148.0,
+          "end_s": 148.5,
+          "score": 0.946
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7825,
+          "start_s": 148.5,
+          "end_s": 150.5,
+          "score": 0.9265
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 149.0,
+          "end_s": 151.0,
+          "score": 0.9799
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 151.5,
+          "end_s": 152.5,
+          "score": 0.9677
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 152.5,
+          "end_s": 153.0,
+          "score": 0.9821
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 153.5,
+          "end_s": 154.5,
+          "score": 0.9647
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7775,
+          "start_s": 154.5,
+          "end_s": 155.0,
+          "score": 0.9904
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.55,
+          "start_s": 155.0,
+          "end_s": 155.5,
+          "score": 0.9999
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7775,
+          "start_s": 155.5,
+          "end_s": 156.5,
+          "score": 0.9826
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 155.5,
+          "end_s": 156.5,
+          "score": 0.9892
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 157.0,
+          "end_s": 157.5,
+          "score": 0.9765
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7675,
+          "start_s": 157.5,
+          "end_s": 158.0,
+          "score": 0.99
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 158.0,
+          "end_s": 161.5,
+          "score": 0.9519
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 162.0,
+          "end_s": 164.0,
+          "score": 0.9828
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6075,
+          "start_s": 164.5,
+          "end_s": 166.5,
+          "score": 0.8681
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 167.0,
+          "end_s": 167.5,
+          "score": 0.9854
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 168.0,
+          "end_s": 168.5,
+          "score": 0.9819
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 169.0,
+          "end_s": 169.5,
+          "score": 0.9605
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 169.5,
+          "end_s": 170.0,
+          "score": 0.9999
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.61,
+          "start_s": 170.0,
+          "end_s": 170.5,
+          "score": 0.9389
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 170.5,
+          "end_s": 171.0,
+          "score": 0.994
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 171.0,
+          "end_s": 172.5,
+          "score": 0.9245
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 172.0,
+          "end_s": 172.5,
+          "score": 0.9782
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 172.5,
+          "end_s": 173.0,
+          "score": 0.8411
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 173.0,
+          "end_s": 174.5,
+          "score": 0.9388
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 175.0,
+          "end_s": 176.0,
+          "score": 0.9542
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 175.5,
+          "end_s": 176.5,
+          "score": 0.9513
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 176.5,
+          "end_s": 177.0,
+          "score": 0.8662
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 177.0,
+          "end_s": 177.5,
+          "score": 0.9606
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.785,
+          "start_s": 178.0,
+          "end_s": 178.5,
+          "score": 0.9739
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 178.5,
+          "end_s": 179.5,
+          "score": 0.8498
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 179.5,
+          "end_s": 180.0,
+          "score": 0.9845
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6025,
+          "start_s": 179.5,
+          "end_s": 180.5,
+          "score": 0.9566
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 181.0,
+          "end_s": 187.5,
+          "score": 0.8139
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7975,
+          "start_s": 183.0,
+          "end_s": 183.5,
+          "score": 0.8938
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7925,
+          "start_s": 184.5,
+          "end_s": 185.5,
+          "score": 0.9915
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 186.0,
+          "end_s": 187.0,
+          "score": 0.9875
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.61,
+          "start_s": 187.5,
+          "end_s": 188.0,
+          "score": 0.8996
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7875,
+          "start_s": 188.0,
+          "end_s": 188.5,
+          "score": 0.9956
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 188.0,
+          "end_s": 189.0,
+          "score": 0.8801
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 189.0,
+          "end_s": 190.5,
+          "score": 0.9699
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 190.0,
+          "end_s": 191.5,
+          "score": 0.9818
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.795,
+          "start_s": 191.5,
+          "end_s": 193.5,
+          "score": 0.9871
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 191.5,
+          "end_s": 192.0,
+          "score": 0.9664
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.61,
+          "start_s": 192.5,
+          "end_s": 193.0,
+          "score": 0.9682
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 194.0,
+          "end_s": 194.5,
+          "score": 0.9923
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 194.5,
+          "end_s": 195.0,
+          "score": 0.9975
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.5525,
+          "start_s": 195.0,
+          "end_s": 195.5,
+          "score": 0.9997
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 195.5,
+          "end_s": 196.0,
+          "score": 0.9713
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 196.5,
+          "end_s": 197.0,
+          "score": 0.9436
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 197.5,
+          "end_s": 198.0,
+          "score": 0.9706
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 199.0,
+          "end_s": 199.5,
+          "score": 0.9931
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.61,
+          "start_s": 202.0,
+          "end_s": 202.5,
+          "score": 0.9961
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 97.195,
+          "start_s": 202.5,
+          "end_s": 206.5,
+          "score": 0.9999
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 204.5,
+          "end_s": 205.0,
+          "score": 0.9815
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 205.0,
+          "end_s": 206.5,
+          "score": 0.8943
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.775,
+          "start_s": 206.0,
+          "end_s": 206.5,
+          "score": 0.9566
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 97.195,
+          "start_s": 207.0,
+          "end_s": 227.984,
+          "score": 0.9909
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 207.5,
+          "end_s": 208.0,
+          "score": 0.9845
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 208.0,
+          "end_s": 208.5,
+          "score": 0.9829
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.78,
+          "start_s": 208.5,
+          "end_s": 212.0,
+          "score": 0.9959
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 208.5,
+          "end_s": 209.5,
+          "score": 0.9394
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 211.0,
+          "end_s": 212.5,
+          "score": 0.9329
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.7775,
+          "start_s": 212.5,
+          "end_s": 213.0,
+          "score": 0.9968
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 212.5,
+          "end_s": 213.0,
+          "score": 0.9112
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 213.5,
+          "end_s": 214.0,
+          "score": 0.8611
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.775,
+          "start_s": 214.5,
+          "end_s": 215.0,
+          "score": 0.998
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 214.5,
+          "end_s": 215.0,
+          "score": 0.9694
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.775,
+          "start_s": 215.5,
+          "end_s": 216.0,
+          "score": 0.9989
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 215.5,
+          "end_s": 216.0,
+          "score": 0.9473
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 217.0,
+          "end_s": 217.5,
+          "score": 0.9502
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.78,
+          "start_s": 218.5,
+          "end_s": 219.0,
+          "score": 0.9985
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.615,
+          "start_s": 218.5,
+          "end_s": 219.0,
+          "score": 0.8583
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 220.5,
+          "end_s": 221.0,
+          "score": 0.979
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 221.5,
+          "end_s": 222.5,
+          "score": 0.9779
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 223.5,
+          "end_s": 224.0,
+          "score": 0.9537
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.615,
+          "start_s": 225.0,
+          "end_s": 225.5,
+          "score": 0.9958
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 96.8,
+          "start_s": 226.0,
+          "end_s": 226.5,
+          "score": 0.9984
+        },
+        {
+          "class": "non_fm",
+          "frequency_mhz": 95.615,
+          "start_s": 226.0,
+          "end_s": 226.5,
+          "score": 0.9925
+        },
+        {
+          "class": "fm",
+          "frequency_mhz": 95.6125,
+          "start_s": 227.5,
+          "end_s": 227.984,
+          "score": 0.9291
+        }
+      ],
+      "time_step_s": 0.5,
+      "frequency_step_khz": 2.5,
+      "model_threshold": 0.884211055276382,
+      "elapsed_s": 158.62,
+      "fm_regions": 149,
+      "non_fm_regions": 102,
+      "heldout_fm_half_second_windows": 235
+    }
+  },
+  "weights_sha256": "0c5fb80330da62b9d8cb6f3fc44a2a5a910710f1d0fa3bf523b022466ac1e97c",
+  "web_upload_check": {
+    "passed": true,
+    "formats": [
+      "SDR# PCM16 WAV with auxi",
+      "raw unsigned 8-bit I/Q"
+    ],
+    "tested_duration_s": 2,
+    "negative_files": [
+      "adsb",
+      "airband"
+    ],
+    "fm_file": "baseband_96400000Hz_09-17-43_23-11-2026.wav"
+  },
+  "mixed_demo": {
+    "filename": "baseband_96000000Hz_mixed_demo.wav",
+    "center_mhz": 96,
+    "sample_rate_hz": 1024000,
+    "duration_s": 6.0,
+    "detections": [
+      {
+        "class": "non_fm",
+        "frequency_mhz": 95.925,
+        "start_s": 0.0,
+        "end_s": 6.0,
+        "score": 1.0
+      },
+      {
+        "class": "fm",
+        "frequency_mhz": 95.7,
+        "start_s": 0.0,
+        "end_s": 6.0,
+        "score": 0.9866
+      },
+      {
+        "class": "non_fm",
+        "frequency_mhz": 96.325,
+        "start_s": 0.0,
+        "end_s": 6.0,
+        "score": 0.9999
+      },
+      {
+        "class": "non_fm",
+        "frequency_mhz": 96.1375,
+        "start_s": 1.5,
+        "end_s": 4.5,
+        "score": 1.0
+      }
+    ],
+    "time_step_s": 0.5,
+    "frequency_step_khz": 2.5,
+    "model_threshold": 0.884211055276382
+  }
+}

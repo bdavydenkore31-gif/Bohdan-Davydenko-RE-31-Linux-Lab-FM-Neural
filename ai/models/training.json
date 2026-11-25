@@ -1,0 +1,514 @@
+{
+  "schema": 3,
+  "feature_kind": "hybrid",
+  "architecture": [
+    563,
+    128,
+    64,
+    1
+  ],
+  "framework": "scikit-learn MLPClassifier",
+  "threshold": 0.884211055276382,
+  "non_fm_threshold": 0.8,
+  "calibration": {
+    "slope": 0.8401105999946594,
+    "intercept": -0.3655429780483246,
+    "method": "Platt scaling, validation only"
+  },
+  "inference_windows": 3,
+  "train_samples": 16000,
+  "validation_samples": 4000,
+  "best_validation_log_loss": 0.020006741264228026,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_log_loss": 0.07324399316200822,
+      "validation_accuracy": 0.97375
+    },
+    {
+      "epoch": 2,
+      "validation_log_loss": 0.04184764390797932,
+      "validation_accuracy": 0.9855
+    },
+    {
+      "epoch": 3,
+      "validation_log_loss": 0.03550564555378756,
+      "validation_accuracy": 0.989
+    },
+    {
+      "epoch": 4,
+      "validation_log_loss": 0.0359223362197572,
+      "validation_accuracy": 0.98625
+    },
+    {
+      "epoch": 5,
+      "validation_log_loss": 0.03067320795010994,
+      "validation_accuracy": 0.98875
+    },
+    {
+      "epoch": 6,
+      "validation_log_loss": 0.03873263964520359,
+      "validation_accuracy": 0.9865
+    },
+    {
+      "epoch": 7,
+      "validation_log_loss": 0.041136558047385675,
+      "validation_accuracy": 0.988
+    },
+    {
+      "epoch": 8,
+      "validation_log_loss": 0.03279723849614953,
+      "validation_accuracy": 0.9885
+    },
+    {
+      "epoch": 9,
+      "validation_log_loss": 0.030739415906647652,
+      "validation_accuracy": 0.98975
+    },
+    {
+      "epoch": 10,
+      "validation_log_loss": 0.030185333295601937,
+      "validation_accuracy": 0.99025
+    },
+    {
+      "epoch": 11,
+      "validation_log_loss": 0.03163058767388284,
+      "validation_accuracy": 0.98925
+    },
+    {
+      "epoch": 12,
+      "validation_log_loss": 0.028040865575261278,
+      "validation_accuracy": 0.99075
+    },
+    {
+      "epoch": 13,
+      "validation_log_loss": 0.027680714114442822,
+      "validation_accuracy": 0.9895
+    },
+    {
+      "epoch": 14,
+      "validation_log_loss": 0.025373361696597867,
+      "validation_accuracy": 0.98975
+    },
+    {
+      "epoch": 15,
+      "validation_log_loss": 0.024412823920191784,
+      "validation_accuracy": 0.99025
+    },
+    {
+      "epoch": 16,
+      "validation_log_loss": 0.023971834212549423,
+      "validation_accuracy": 0.9905
+    },
+    {
+      "epoch": 17,
+      "validation_log_loss": 0.024165324274651765,
+      "validation_accuracy": 0.99025
+    },
+    {
+      "epoch": 18,
+      "validation_log_loss": 0.0242670699238532,
+      "validation_accuracy": 0.9905
+    },
+    {
+      "epoch": 19,
+      "validation_log_loss": 0.024279876776153543,
+      "validation_accuracy": 0.9905
+    },
+    {
+      "epoch": 20,
+      "validation_log_loss": 0.02391655303518715,
+      "validation_accuracy": 0.9915
+    },
+    {
+      "epoch": 21,
+      "validation_log_loss": 0.023845211774667432,
+      "validation_accuracy": 0.99125
+    },
+    {
+      "epoch": 22,
+      "validation_log_loss": 0.5248636797763006,
+      "validation_accuracy": 0.918
+    },
+    {
+      "epoch": 23,
+      "validation_log_loss": 0.02566353376114455,
+      "validation_accuracy": 0.99025
+    },
+    {
+      "epoch": 24,
+      "validation_log_loss": 0.024379683899107447,
+      "validation_accuracy": 0.9915
+    },
+    {
+      "epoch": 25,
+      "validation_log_loss": 0.022387676571429836,
+      "validation_accuracy": 0.99225
+    },
+    {
+      "epoch": 26,
+      "validation_log_loss": 0.021726674325814117,
+      "validation_accuracy": 0.99275
+    },
+    {
+      "epoch": 27,
+      "validation_log_loss": 0.021786087945415034,
+      "validation_accuracy": 0.99225
+    },
+    {
+      "epoch": 28,
+      "validation_log_loss": 0.021757239918172987,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 29,
+      "validation_log_loss": 0.02168924016708877,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 30,
+      "validation_log_loss": 0.02168362470501964,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 31,
+      "validation_log_loss": 0.021646384794429735,
+      "validation_accuracy": 0.99225
+    },
+    {
+      "epoch": 32,
+      "validation_log_loss": 0.02160944898145834,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 33,
+      "validation_log_loss": 0.021533647890555188,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 34,
+      "validation_log_loss": 0.021350522399660038,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 35,
+      "validation_log_loss": 0.02113827851267874,
+      "validation_accuracy": 0.9925
+    },
+    {
+      "epoch": 36,
+      "validation_log_loss": 0.020828270081076312,
+      "validation_accuracy": 0.99275
+    },
+    {
+      "epoch": 37,
+      "validation_log_loss": 0.020584259665920087,
+      "validation_accuracy": 0.99275
+    },
+    {
+      "epoch": 38,
+      "validation_log_loss": 0.02026509027109452,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 39,
+      "validation_log_loss": 0.020125297720547847,
+      "validation_accuracy": 0.993
+    },
+    {
+      "epoch": 40,
+      "validation_log_loss": 0.020084310744299047,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 41,
+      "validation_log_loss": 0.020006741264228026,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 42,
+      "validation_log_loss": 0.02011913649042097,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 43,
+      "validation_log_loss": 0.020224597426864308,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 44,
+      "validation_log_loss": 0.02029166748314586,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 45,
+      "validation_log_loss": 0.020465384947042965,
+      "validation_accuracy": 0.993
+    },
+    {
+      "epoch": 46,
+      "validation_log_loss": 0.02088902880798679,
+      "validation_accuracy": 0.99325
+    },
+    {
+      "epoch": 47,
+      "validation_log_loss": 0.021485153323548473,
+      "validation_accuracy": 0.99225
+    },
+    {
+      "epoch": 48,
+      "validation_log_loss": 0.020832736394389373,
+      "validation_accuracy": 0.99375
+    },
+    {
+      "epoch": 49,
+      "validation_log_loss": 0.02146187415141344,
+      "validation_accuracy": 0.99425
+    },
+    {
+      "epoch": 50,
+      "validation_log_loss": 0.024543502237986417,
+      "validation_accuracy": 0.992
+    },
+    {
+      "epoch": 51,
+      "validation_log_loss": 0.03213404389677686,
+      "validation_accuracy": 0.98875
+    },
+    {
+      "epoch": 52,
+      "validation_log_loss": 0.023346417201485167,
+      "validation_accuracy": 0.99275
+    },
+    {
+      "epoch": 53,
+      "validation_log_loss": 0.02344872346017897,
+      "validation_accuracy": 0.9935
+    },
+    {
+      "epoch": 54,
+      "validation_log_loss": 0.023166833242033478,
+      "validation_accuracy": 0.993
+    },
+    {
+      "epoch": 55,
+      "validation_log_loss": 0.023063375792412244,
+      "validation_accuracy": 0.993
+    },
+    {
+      "epoch": 56,
+      "validation_log_loss": 0.022896129980883386,
+      "validation_accuracy": 0.99275
+    }
+  ],
+  "test": {
+    "samples": 4000,
+    "accuracy": 0.977,
+    "fm_recall": 0.9615,
+    "false_fm_rate": 0.0075,
+    "confusion_matrix_non_fm_fm": [
+      [
+        1985,
+        15
+      ],
+      [
+        77,
+        1923
+      ]
+    ],
+    "by_kind": {
+      "am": {
+        "samples": 165,
+        "fm_fraction": 0.0
+      },
+      "cw": {
+        "samples": 176,
+        "fm_fraction": 0.0
+      },
+      "noise": {
+        "samples": 166,
+        "fm_fraction": 0.0
+      },
+      "phase_scramble": {
+        "samples": 169,
+        "fm_fraction": 0.005917159763313609
+      },
+      "qpsk": {
+        "samples": 163,
+        "fm_fraction": 0.08588957055214724
+      },
+      "real_adsb": {
+        "samples": 175,
+        "fm_fraction": 0.0
+      },
+      "real_adsb_background": {
+        "samples": 201,
+        "fm_fraction": 0.0
+      },
+      "real_airband": {
+        "samples": 412,
+        "fm_fraction": 0.0
+      },
+      "real_background": {
+        "samples": 373,
+        "fm_fraction": 0.0
+      },
+      "real_fm": {
+        "samples": 2000,
+        "fm_fraction": 0.9615
+      }
+    }
+  },
+  "real_test": {
+    "samples": 372,
+    "accuracy": 0.9946236559139785,
+    "fm_recall": 0.9811320754716981,
+    "false_fm_rate": 0.0,
+    "confusion_matrix_non_fm_fm": [
+      [
+        266,
+        0
+      ],
+      [
+        2,
+        104
+      ]
+    ],
+    "by_kind": {
+      "real_adsb": {
+        "samples": 34,
+        "fm_fraction": 0.0
+      },
+      "real_adsb_background": {
+        "samples": 34,
+        "fm_fraction": 0.0
+      },
+      "real_airband": {
+        "samples": 93,
+        "fm_fraction": 0.0
+      },
+      "real_background": {
+        "samples": 105,
+        "fm_fraction": 0.0
+      },
+      "real_fm": {
+        "samples": 106,
+        "fm_fraction": 0.9811320754716981
+      }
+    }
+  },
+  "test_roc_auc": 0.9991927500000001,
+  "source": {
+    "schema": 3,
+    "sources": [
+      {
+        "id": "previous_fm",
+        "source_filename": "baseband_96000000Hz_11-32-20_15-11-2026.wav",
+        "source_sha256": "3977093bbc10fbaba8227b0594592c4214a27e6d8a00ecb63d6e5914059c9010",
+        "source_sample_rate_hz": 2048000,
+        "source_center_mhz": 96.0,
+        "station_mhz": 96.0,
+        "source_duration_s": 240.0,
+        "windows": 960,
+        "samples_per_window": 8192,
+        "window_rate_hz": 320000,
+        "label_basis": "Канал 96 МГц попереднього SDR-запису прийнято за FM на основі попередньої перевірки приймання.",
+        "processing": "Зсув частоти, фільтрація й ресемплінг комплексних I/Q. Аудіо не декодується.",
+        "split": "Різні вихідні часові вікна для train 70%, validation 15%, test 15%; їхні перетворення зберігають той самий split."
+      },
+      {
+        "id": "adsb",
+        "filename": "adsb.2021-11-26T15_03_30_573.wav",
+        "sha256": "3daaa515dfe6dfc5573c4a031ce4c0531c4bb7025813b7aef268a424b9351633",
+        "sample_rate_hz": 2400000,
+        "raw_format": "PCM16 WAV",
+        "rate_basis": "Заголовок WAV",
+        "duration_s": 102.08768,
+        "channels": [
+          {
+            "offset_hz": 0,
+            "class": "non_fm",
+            "kind": "real_adsb"
+          },
+          {
+            "offset_hz": 650000,
+            "class": "non_fm",
+            "kind": "real_adsb_background"
+          }
+        ]
+      },
+      {
+        "id": "airband",
+        "filename": "airband.2021-12-16T14_38_30_460.wav",
+        "sha256": "f7e7e8406918ddb5bef4de681e5ef244280793a7c1bcebb4c4cd908314663a90",
+        "sample_rate_hz": 3000000,
+        "raw_format": "PCM16 WAV",
+        "rate_basis": "Заголовок WAV",
+        "duration_s": 45.498768,
+        "channels": [
+          {
+            "offset_hz": -675000,
+            "class": "non_fm",
+            "kind": "real_airband"
+          },
+          {
+            "offset_hz": -545000,
+            "class": "non_fm",
+            "kind": "real_airband"
+          },
+          {
+            "offset_hz": 1125000,
+            "class": "non_fm",
+            "kind": "real_airband"
+          }
+        ]
+      },
+      {
+        "id": "broadcast",
+        "filename": "baseband_96400000Hz_09-17-43_23-11-2026.wav",
+        "sha256": "294e5eab73021769051dbe2cea7b86400c9c4c9d58407bfe391e517478842009",
+        "sample_rate_hz": 2048000,
+        "raw_format": "u8",
+        "rate_basis": "Параметри попереднього записування; у сирому файлі заголовка немає.",
+        "duration_s": 227.9840107421875,
+        "channels": [
+          {
+            "offset_hz": -400000,
+            "class": "fm",
+            "kind": "real_fm"
+          },
+          {
+            "offset_hz": 0,
+            "class": "fm",
+            "kind": "real_fm"
+          },
+          {
+            "offset_hz": -150000,
+            "class": "non_fm",
+            "kind": "real_background"
+          },
+          {
+            "offset_hz": 230000,
+            "class": "non_fm",
+            "kind": "real_background"
+          },
+          {
+            "offset_hz": 580000,
+            "class": "non_fm",
+            "kind": "real_background"
+          }
+        ]
+      }
+    ],
+    "windows": 2568,
+    "samples_per_window": 8192,
+    "sample_rate_hz": 320000,
+    "label_basis": "FM попередньої лабораторної; у новому записі канали 96,0 і 96,4 МГц перевірено за фазовою структурою та пілотом 19 кГц. ADS-B і airband — негативи за типом наданих записів. Міжканальні ділянки мають мітку не FM у центрі аналізованого каналу.",
+    "split": "70/15/15 за часом кожного запису, із захисною паузою; усі канали одного часу належать одній вибірці.",
+    "held_out_channel": "Канал близько 97,2 МГц нового запису не використано для навчання або вибору моделі."
+  },
+  "scope": "Відкладені часові ділянки цих записів. Це не гарантія для будь-яких модуляцій і приймачів.",
+  "elapsed_s": 349.88,
+  "weights_bytes": 309765,
+  "inference_ms_per_window": 10.684059374398203
+}
