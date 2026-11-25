@@ -6,3 +6,4 @@ data/*
 ai/models/*.tmp
 ai/models/*.tmp.npz
 .env
+.idea/
