@@ -124,7 +124,14 @@ python -m ai.prepare_captures --samples-dir "/home/pi/sdr_samples"
 Приклад роботи з ADS-B (Automatic Dependent Surveillance-Broadcast ) записом з літака.
 <img width="1266" height="674" alt="image" src="https://github.com/user-attachments/assets/db726559-5cac-4bec-bdae-4b04d1f450ee" />
 Приклад роботи з записом який містить кілька каналів голосового зв’язку служби управління повітряним рухом (ATC) з AM модуляцією.
+
 <img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/bd4951d0-ec62-4587-8a0f-d16c214b5478" />
 Приклад роботи з записом який містить кілька каналів FM мовлення.
 <img width="1280" height="626" alt="image" src="https://github.com/user-attachments/assets/561379ee-9a40-4c03-ac33-5f27e5a14798" />
 Приклад роботи з записом FM радіо.
+##Відеоприклади
+https://github.com/user-attachments/assets/2eae9b21-2e78-4f0a-a563-61faf9e6d0e7
+
+https://github.com/user-attachments/assets/13b46f13-6dbb-43ad-8727-08af8f24fc7e
+
+
