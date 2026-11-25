@@ -132,8 +132,10 @@ python -m ai.prepare_captures --samples-dir "/home/pi/sdr_samples"
 
 ## Відеоприклади
 
-https://github.com/user-attachments/assets/2eae9b21-2e78-4f0a-a563-61faf9e6d0e7
+https://github.com/user-attachments/assets/3621ca4d-f86c-461b-8fc9-f374eaf04184
 
-https://github.com/user-attachments/assets/13b46f13-6dbb-43ad-8727-08af8f24fc7e
+https://github.com/user-attachments/assets/7b2f0ce6-20e2-4f9f-b5d5-7b88d6ad59ad
+
+
 
 
