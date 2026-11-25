@@ -129,7 +129,8 @@ python -m ai.prepare_captures --samples-dir "/home/pi/sdr_samples"
 Приклад роботи з записом який містить кілька каналів FM мовлення.
 <img width="1280" height="626" alt="image" src="https://github.com/user-attachments/assets/561379ee-9a40-4c03-ac33-5f27e5a14798" />
 Приклад роботи з записом FM радіо.
-##Відеоприклади
+## Відеоприклади
+
 https://github.com/user-attachments/assets/2eae9b21-2e78-4f0a-a563-61faf9e6d0e7
 
 https://github.com/user-attachments/assets/13b46f13-6dbb-43ad-8727-08af8f24fc7e
